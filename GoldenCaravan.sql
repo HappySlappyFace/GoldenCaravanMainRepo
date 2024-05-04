@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 30, 2024 at 09:32 PM
+-- Generation Time: May 04, 2024 at 10:43 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -42,25 +42,56 @@ CREATE TABLE `Booking` (
 --
 
 INSERT INTO `Booking` (`idBooking`, `idClient`, `idRoom`, `startDate`, `endDate`, `status`, `price`) VALUES
-(6, 1, '01TN001', '2023-05-15', '2023-05-20', '1', 965.00),
-(7, 1, '02SF001', '2023-06-05', '2023-06-10', '1', 700.00),
-(8, 1, '03SS001', '2023-07-01', '2023-07-05', '1', 568.00),
-(9, 1, '04HM001', '2023-08-10', '2023-08-15', '1', 1020.00),
-(10, 1, '01TN002', '2023-09-15', '2023-09-20', '1', 1675.00),
+(6, 1, '01TN001', '2023-05-15', '2023-05-20', '2', 965.00),
+(7, 1, '02SF001', '2023-06-05', '2023-06-10', '2', 700.00),
+(8, 1, '03SS001', '2023-07-01', '2023-07-05', '2', 568.00),
+(9, 1, '04HM001', '2023-08-10', '2023-08-15', '2', 1020.00),
+(10, 1, '01TN002', '2023-09-15', '2023-09-20', '2', 1675.00),
 (11, 2, '01TN003', '2023-04-10', '2023-04-15', '1', 1100.00),
-(12, 2, '02SF003', '2023-05-16', '2023-05-21', '1', 885.00),
-(13, 2, '03SS003', '2023-06-20', '2023-06-25', '1', 885.00),
-(14, 2, '04HM003', '2023-07-10', '2023-07-15', '1', 1545.00),
+(12, 2, '02SF003', '2023-05-16', '2023-05-21', '2', 885.00),
+(13, 2, '03SS003', '2023-06-20', '2023-06-25', '2', 885.00),
+(14, 2, '04HM003', '2023-07-10', '2023-07-15', '2', 1545.00),
 (15, 2, '01TN005', '2023-08-20', '2023-08-25', '1', 865.00),
 (16, 3, '01TN004', '2023-03-15', '2023-03-20', '1', 1710.00),
 (17, 3, '02SF004', '2023-04-25', '2023-04-30', '1', 570.00),
-(18, 3, '03SS004', '2023-05-30', '2023-06-04', '1', 670.00),
-(19, 3, '04HM004', '2023-07-05', '2023-07-10', '1', 1135.00),
-(20, 3, '01TN006', '2023-08-15', '2023-08-20', '1', 515.00),
-(21, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
-(22, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
-(23, 1, '01TN010', '2024-05-01', '2024-05-07', '0', 1914.00),
-(24, 1, '01TN010', '2024-05-01', '2024-05-07', '0', 1914.00);
+(18, 3, '03SS004', '2023-05-30', '2023-06-04', '2', 670.00),
+(19, 3, '04HM004', '2023-07-05', '2023-07-10', '2', 1135.00),
+(20, 3, '01TN006', '2023-08-15', '2023-08-20', '2', 515.00),
+(21, 1, '01TN009', '2024-05-01', '2024-05-06', '1', 610.00),
+(22, 1, '01TN009', '2024-05-01', '2024-05-06', '1', 610.00),
+(23, 1, '01TN010', '2024-05-01', '2024-05-07', '1', 1914.00),
+(24, 1, '01TN010', '2024-05-01', '2024-05-07', '1', 1914.00),
+(33, 1, '01TN009', '2024-05-01', '2024-05-06', '1', 610.00),
+(34, 1, '01TN009', '2024-05-01', '2024-05-06', '1', 610.00),
+(35, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(36, 1, '01TN009', '2024-05-01', '2024-05-06', '1', 610.00),
+(37, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(38, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(39, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(40, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(41, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(44, 1, '01TN009', '2024-05-01', '2024-05-06', '0', 610.00),
+(46, 10, '02SF001', '2024-05-01', '2024-05-07', '0', 840.00),
+(47, 10, '02SF001', '2024-05-01', '2024-05-07', '0', 840.00),
+(48, 10, '02SF001', '2024-05-01', '2024-05-07', '0', 840.00),
+(49, 10, '02SF001', '2024-05-01', '2024-05-07', '1', 840.00),
+(51, 10, '02SF001', '2024-05-01', '2024-05-01', '2', 140.00),
+(52, 10, '05DJ001', '2024-05-19', '2024-05-27', '1', 3159.00),
+(53, 10, '05DJ001', '2024-05-19', '2024-05-27', '0', 3159.00),
+(54, 10, '02SF002', '2024-05-02', '2024-05-02', '0', 302.00),
+(55, 2, '02SF001', '2024-05-27', '2024-05-28', '1', 280.00),
+(56, 2, '02SF004', '2024-05-20', '2024-05-28', '0', 1026.00),
+(57, 2, '01TN001', '2024-05-14', '2024-05-21', '1', 1600.00),
+(58, 1, '02SF001', '2024-06-30', '2024-07-07', '1', 1344.00),
+(59, 1, '02SF060', '2024-05-01', '2024-05-08', '0', 2032.00),
+(60, 1, '02SF060', '2024-06-30', '2024-07-14', '0', 4572.00),
+(61, 1, '02SF060', '2024-06-02', '2024-06-09', '0', 2438.40),
+(62, 1, '02SF002', '2024-05-02', '2024-05-02', '0', 302.00),
+(63, 2, '02SF003', '2024-05-02', '2024-05-02', '0', 177.00),
+(64, 2, '02SF002', '2024-05-02', '2024-05-02', '0', 302.00),
+(65, 12, '02SF003', '2024-05-08', '2024-05-15', '1', 1416.00),
+(66, 1, '02SF003', '2024-05-20', '2024-05-29', '0', 1770.00),
+(67, 2, '02SF008', '2024-05-07', '2024-05-14', '0', 2192.00);
 
 -- --------------------------------------------------------
 
@@ -118,9 +149,9 @@ CREATE TABLE `Rooms` (
 --
 
 INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `roomType`, `imageUrl`) VALUES
-('01TN001', 1, 1, 1, 193, 'Suite', 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
+('01TN001', 1, 3, 1, 300, 'Suite', 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN002', 1, 4, 0, 335, 'Deluxe', 'https://images.unsplash.com/photo-1521783593447-5702b9bfd267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
-('01TN003', 1, 2, 0, 220, 'Deluxe', 'https://images.unsplash.com/photo-1601479207163-3c4dd6b0bb91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzfHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
+('01TN003', 1, 3, 0, 220, 'Deluxe', 'https://images.unsplash.com/photo-1601479207163-3c4dd6b0bb91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzfHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN004', 1, 4, 0, 342, 'Deluxe', 'https://images.unsplash.com/photo-1634072319894-107e61606191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0fHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN005', 1, 4, 0, 173, 'Standard', 'https://images.unsplash.com/photo-1505773278895-5efa7b11679a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw1fHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN006', 1, 2, 1, 103, 'Standard', 'https://images.unsplash.com/photo-1561552919-3566c97a3a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw2fHxob3RlbCUyMHJvb218ZW58MHwyfHx8MTcxMzY2MzYxMnww&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -150,7 +181,6 @@ INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `ro
 ('01TN030', 1, 4, 1, 219, 'Standard', 'https://images.unsplash.com/photo-1663659505016-d358722c06c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzMHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN031', 1, 4, 0, 492, 'Suite', 'https://images.unsplash.com/photo-1663659504863-43dd69a5fda2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzMXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN032', 1, 3, 0, 139, 'Standard', 'https://images.unsplash.com/photo-1663659507747-480307d308e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzMnx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
-('01TN033', 1, 4, 0, 190, 'Standard', 'https://images.unsplash.com/photo-1623316200785-895cd6b807a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzM3x8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN034', 1, 3, 1, 130, 'Standard', 'https://images.unsplash.com/photo-1663659509364-7a03ab59e2ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN035', 1, 2, 1, 133, 'Standard', 'https://images.unsplash.com/photo-1663659506082-2e2193b3b6bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN036', 1, 3, 1, 282, 'Deluxe', 'https://images.unsplash.com/photo-1659011557941-f61112150a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNnx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -161,7 +191,6 @@ INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `ro
 ('01TN041', 1, 2, 1, 131, 'Standard', 'https://images.unsplash.com/photo-1659196454282-8d976c71901d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0MXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN042', 1, 4, 1, 301, 'Deluxe', 'https://images.unsplash.com/photo-1564869063369-e7c0c72dbe1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0Mnx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN043', 1, 4, 1, 203, 'Standard', 'https://images.unsplash.com/photo-1615737986496-1d36ad26ae51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0M3x8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
-('01TN044', 1, 4, 0, 462, 'Suite', 'https://images.unsplash.com/photo-1662231024314-1975b5003ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0NHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN045', 1, 2, 0, 256, 'Suite', 'https://images.unsplash.com/photo-1632653323756-a9b6966bc4d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0NXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN046', 1, 1, 0, 142, 'Deluxe', 'https://images.unsplash.com/photo-1571712704100-5cade806bf6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0Nnx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN047', 1, 2, 1, 162, 'Standard', 'https://images.unsplash.com/photo-1471623600634-4d04cfc56a27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0N3x8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -218,6 +247,8 @@ INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `ro
 ('01TN098', 1, 1, 1, 137, 'Standard', 'https://images.unsplash.com/photo-1663659506588-5d5f24c3eb4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzOHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTV8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN099', 1, 2, 0, 190, 'Deluxe', 'https://images.unsplash.com/photo-1598035409990-7b835b927bde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzOXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTV8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('01TN100', 1, 4, 0, 346, 'Deluxe', 'https://images.unsplash.com/photo-1663659507885-f7be2eb45888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw0MHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjM2MTV8MA&ixlib=rb-4.0.3&q=80&w=1080'),
+('01TN101', 1, 2, 0, 600, 'Suite', ''),
+('01TN102', 1, 2, 1, 900, 'Deluxe', ''),
 ('02SF001', 2, 2, 1, 140, 'Standard', 'https://images.unsplash.com/photo-1638840992956-142399e7e2df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNjF8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzQ5fDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('02SF002', 2, 2, 1, 302, 'Suite', 'https://images.unsplash.com/photo-1584537319035-d6f4fb63f4c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNjJ8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzQ5fDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('02SF003', 2, 1, 0, 177, 'Suite', 'https://images.unsplash.com/photo-1585399090208-f231d43313aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwzNjN8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzQ5fDA&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -316,9 +347,9 @@ INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `ro
 ('02SF096', 2, 2, 1, 302, 'Suite', 'https://images.unsplash.com/photo-1536639240649-1f0979e7993d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNTZ8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('02SF097', 2, 2, 0, 262, 'Suite', 'https://images.unsplash.com/photo-1633734604812-74b96543a96e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNTd8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('02SF098', 2, 4, 1, 194, 'Standard', 'https://images.unsplash.com/photo-1542058374780-be185a5e80fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNTh8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080'),
-('02SF099', 2, 2, 0, 195, 'Deluxe', 'https://images.unsplash.com/photo-1686308629121-b22f989d5c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNTl8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080');
+('02SF099', 2, 2, 0, 195, 'Deluxe', 'https://images.unsplash.com/photo-1686308629121-b22f989d5c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNTl8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080'),
+('02SF100', 2, 2, 1, 130, 'Standard', 'https://images.unsplash.com/photo-1614447911556-01f4d9900185?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNjB8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080');
 INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `roomType`, `imageUrl`) VALUES
-('02SF100', 2, 2, 1, 130, 'Standard', 'https://images.unsplash.com/photo-1614447911556-01f4d9900185?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxNjB8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('03SS001', 3, 2, 0, 142, 'Standard', 'https://images.unsplash.com/photo-1616594179229-1fc9289ee234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwyNzF8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0Mjk0fDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('03SS002', 3, 1, 1, 162, 'Suite', 'https://images.unsplash.com/photo-1618219667957-57bcae695603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwyNzJ8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0Mjk0fDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('03SS003', 3, 4, 0, 177, 'Standard', 'https://images.unsplash.com/photo-1645527898423-a9654db8d29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwyNzN8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0Mjk0fDA&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -515,9 +546,9 @@ INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `ro
 ('04HM094', 4, 1, 1, 149, 'Suite', 'https://images.unsplash.com/photo-1526315060860-f05bd462eb60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5NHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('04HM095', 4, 3, 1, 258, 'Deluxe', 'https://images.unsplash.com/photo-1559575918-c2ede2c34323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5NXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('04HM096', 4, 4, 1, 197, 'Standard', 'https://images.unsplash.com/photo-1674457210496-9dc8efe20ee9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5Nnx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
-('04HM097', 4, 4, 1, 190, 'Standard', 'https://images.unsplash.com/photo-1547961547-321889bff29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5N3x8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080');
+('04HM097', 4, 4, 1, 190, 'Standard', 'https://images.unsplash.com/photo-1547961547-321889bff29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5N3x8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
+('04HM098', 4, 4, 1, 463, 'Suite', 'https://images.unsplash.com/photo-1617098591651-dd95032bc8bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5OHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080');
 INSERT INTO `Rooms` (`idRoom`, `idHotel`, `numberOfBeds`, `status`, `price`, `roomType`, `imageUrl`) VALUES
-('04HM098', 4, 4, 1, 463, 'Suite', 'https://images.unsplash.com/photo-1617098591651-dd95032bc8bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5OHx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('04HM099', 4, 2, 1, 224, 'Deluxe', 'https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5OXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQyMjJ8MA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('04HM100', 4, 4, 1, 332, 'Deluxe', 'https://images.unsplash.com/photo-1615875474908-f403116f5287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHwxMDB8fGhvdGVsJTIwcm9vbXxlbnwwfDJ8fHwxNzEzNjY0MjIyfDA&ixlib=rb-4.0.3&q=80&w=1080'),
 ('05DJ001', 5, 3, 0, 351, 'Suite', 'https://images.unsplash.com/photo-1482068417235-8f51fac7fc30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMwODl8MHwxfHNlYXJjaHw5MXx8aG90ZWwlMjByb29tfGVufDB8Mnx8fDE3MTM2NjQxODN8MA&ixlib=rb-4.0.3&q=80&w=1080'),
@@ -654,7 +685,9 @@ INSERT INTO `Users` (`idUser`, `firstName`, `lastName`, `email`, `password`, `ph
 (7, 'REBAI', 'AYMAN', 'g@gmail.com', '12345678', 52869221, '2024-04-30 11:43:07', '2024-04-30 11:43:07', 'https://via.placeholder.com/150', 'User'),
 (8, 'REBAI', 'AYMAN', 'c@gmail.com', '12345678', 52869221, '2024-04-30 11:43:11', '2024-04-30 11:43:11', 'https://via.placeholder.com/150', 'User'),
 (9, 'REBAI', 'AYMAN', 't@gmail.com', '12345678', 52869221, '2024-04-30 11:43:21', '2024-04-30 11:43:21', 'https://via.placeholder.com/150', 'User'),
-(10, 'Taha', 'Ben Fourati', 'taha@gmail.com', 'taha123', 32165487, '2024-04-30 13:59:44', '2024-04-30 13:59:44', 'https://via.placeholder.com/150', 'SuperAdmin');
+(10, 'Taha', 'Ben Fourati', 'taha@gmail.com', 'taha123', 32165487, '2024-04-30 13:59:44', '2024-04-30 13:59:44', 'http://localhost/Web2/Project/uploads/DSC_2092.jpg', 'SuperAdmin'),
+(11, 'REBAI', 'AYMAN', 'j@gmail.com', '12345678', 52869221, '2024-05-02 03:50:07', '2024-05-02 03:50:07', 'https://via.placeholder.com/150', 'User'),
+(12, 'Wahiba', 'Wahiba', 'Wahiba@gmail.com', 'wahiba123', 12345678, '2024-05-02 10:25:44', '2024-05-02 10:25:44', 'https://via.placeholder.com/150', 'User');
 
 --
 -- Indexes for dumped tables
@@ -695,13 +728,13 @@ ALTER TABLE `Users`
 -- AUTO_INCREMENT for table `Booking`
 --
 ALTER TABLE `Booking`
-  MODIFY `idBooking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `idBooking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
 
 --
 -- AUTO_INCREMENT for table `Users`
 --
 ALTER TABLE `Users`
-  MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- Constraints for dumped tables
